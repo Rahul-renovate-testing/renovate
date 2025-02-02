@@ -74,6 +74,7 @@
     },
      {
       "customType": "jsonata",
+      "fileFormat": "json",
       "fileMatch": ["package.json"],
       "matchStrings": [
         "$each(dependencies, function($v, $k) { {\"depName\":$k, \"currentValue\": $v, \"depType\": \"dependencies\"}})",
